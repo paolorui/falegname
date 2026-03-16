@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Falegnameria Marchetti– Torino</title>
+<title>Falegnameria – Torino</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -755,8 +755,26 @@
   }
 
   @media (max-width: 768px) {
-    nav { padding: 1.2rem 1.5rem; }
-    .nav-links { display: none; }
+	  
+	nav{
+        padding: 1.2rem 1.5rem;
+        display: block;
+	}
+	
+	.nav-logo {
+        display: block;
+        width: 100%;
+        margin-bottom: 23px;
+        text-align: center;
+	}
+		
+	
+    .nav-links {
+        display: flex;
+        text-align: center;
+        gap: 1.95rem;
+    }
+
     section { padding: 4rem 1.5rem; }
     .hero { grid-template-columns: 1fr; }
     .hero-right { display: none; }
@@ -852,7 +870,7 @@
   <div class="hero-wood-pattern"></div>
 
   <div class="hero-left">
-    <p class="hero-eyebrow">Falegnameria Marchetti · Torino dal 1987</p>
+    <p class="hero-eyebrow">Falegnameria artigianale · Torino dal 1987</p>
     <h1 class="hero-title">Il legno<br>è la nostra <em>lingua</em></h1>
     <p class="hero-subtitle">
       Arredi su misura, restauro e lavorazioni personalizzate.
@@ -1006,7 +1024,7 @@
       </li>
       <li>
         <div class="contact-icon">✉</div>
-        info@falegnameria_marchetti.it
+        info@falegnameri.it
       </li>
       <li>
         <div class="contact-icon">🕐</div>
@@ -1037,7 +1055,7 @@
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-brand">Falegnameria Marchetti · Torino</div>
+  <div class="footer-brand">Falegnameria · Torino</div>
   <div class="footer-copy">P.IVA 02345678901 · Via Borgaro 45 · 10149 Torino</div>
 </footer>
 
